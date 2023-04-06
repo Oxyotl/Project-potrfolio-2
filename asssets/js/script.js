@@ -12,9 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
-
+/**
+ * The main part of the game, called after the user's answer has been processed
+ */
 function runGame() {
-
+    let num1 = Math.floor(Math.random() * 5) + 1;
 }
 
 // function generateRespond() {
