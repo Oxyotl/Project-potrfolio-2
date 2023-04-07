@@ -1,8 +1,11 @@
-body {}
+body {
+    margin: 0;
+}
 
 header {
     background-color: aquamarine;
-    width: 100%;
+
+    text-align: center;
 
 }
 
@@ -26,8 +29,17 @@ header {
     color: white;
 }
 
+
+.score-area{
+    display: flex;
+    justify-content: space-evenly;
+    top: 70px;
+    
+}
+
+
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
