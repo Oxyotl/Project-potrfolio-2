@@ -1,3 +1,15 @@
+/**
+ * Declaration of constants and possible choices
+ */
+const buttons = document.getElementsByClassName("btn");
+const playerScore = document.getElementById("y-score");
+const computerScore = document.getElementById("c-score");
+const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
@@ -16,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * The main part of the game, called after the user's answer has been processed
  */
 function runGame() {
-    let num1 = Math.floor(Math.random() * 5) + 1;
+    let num1 = Math.floor(Math.random() * 5);
 }
 
 // function generateRespond() {
