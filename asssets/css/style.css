@@ -44,6 +44,13 @@ header {
     color: white;
 }
 
+.images-area {
+
+    display: flex;
+    justify-content: space-evenly;
+    top: 70px;
+    font-size: large;
+}
 
 .score-area{
     display: flex;
