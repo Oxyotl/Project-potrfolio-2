@@ -35,6 +35,6 @@ function incrementPcScore() {
 
 }
 
- function decreseTriesLeft() {
+ function decreseMovesLeft() {
 
  }
