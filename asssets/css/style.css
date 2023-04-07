@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    
-    height: 100px;
+
+    height: 60px;
     text-align: center;
 
 }
@@ -25,7 +25,7 @@ header {
 }
 
 .control-area {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -52,10 +52,9 @@ header {
     font-size: large;
 }
 
-.score-area{
+.score-area {
     display: flex;
     justify-content: space-evenly;
-    top: 70px;
     font-size: large;
 }
 
@@ -67,4 +66,6 @@ footer {
     width: 100%;
     background-color: red;
     text-align: center;
+    height: 60px;
+    
 }
