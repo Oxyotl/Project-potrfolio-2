@@ -1,12 +1,23 @@
 body {
     margin: 0;
+    background-color: aquamarine;
+
 }
 
 header {
-    background-color: aquamarine;
-
+    
+    height: 100px;
     text-align: center;
 
+}
+
+.countdown-area {
+    text-align: center;
+    font-size: x-large;
+}
+
+.question {
+    text-align: center;
 }
 
 .control-area {
