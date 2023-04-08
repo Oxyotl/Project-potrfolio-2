@@ -36,6 +36,18 @@ function playGame(playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
 
+    // let result = checkWinner(choices[computerChoiceq], choices[playerChoice];)
+
+    // updateScores(result);
+
+}
+
+
+/**
+ * Checks which choice wins 
+ */
+
+function checkWinner(playerChoice) {
 
 
 
@@ -43,58 +55,6 @@ function playGame(playerChoice) {
 }
 
 
-
-
-
-
-
-
-
-
-// function playGame(playerChoice) {
-
-//     let computerChoice = Math.floor(Math.random() * 5)
-
-//     if (playerChoice === "rock") {
-
-//     }
-
-//     if (playerChoice === "paper") {
-
-//     }
-
-//     if (playerChoice === "scissors") {
-
-//     }
-
-//     if (playerChoice === "lizard") {
-
-//     }
-
-//     if (playerChoice === "spock") {
-
-//     }
-
-// }
-
-
-
-// function generateRespond() {
-
-// }
-
-// function checkAnswer() {
-
-// }
-
-// function incrementYourScore() {
-
-// }
-
-// function incrementPcScore() {
-
-// }
-
-// // function decreseMovesLeft() {
-
-// // }
+/**
+ * Update the scores accordingly
+ */
