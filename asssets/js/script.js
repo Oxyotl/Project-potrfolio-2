@@ -55,6 +55,30 @@ function checkWinner(playerChoice) {
 }
 
 
-/**
- * Update the scores accordingly
- */
+
+
+
+
+    /**
+     * Player score
+     */
+function incrementPlayerScore() {
+
+    let playerScore = parseInt(document.getElementById("p-score").innerText);
+    document.getElementById("p-score").innerText = ++playerScore;
+}
+
+    /**
+     * Computer score
+     */
+function incrementComputerScore() {
+
+    let computerScore = parseInt(document.getElementById("c-score").innerText);
+    document.getElementById("c-score").innerText = ++computerScore;
+}
+
+
+
+function movesLeft () {
+    
+}
