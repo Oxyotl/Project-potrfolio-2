@@ -43,6 +43,8 @@ function playGame(playerChoice) {
 }
 
 
+
+
 /**
  * Checks which choice wins 
  */
@@ -55,22 +57,18 @@ function checkWinner(playerChoice) {
 }
 
 
-
-
-
-
-    /**
-     * Player score
-     */
+/**
+ * Player score
+ */
 function incrementPlayerScore() {
 
     let playerScore = parseInt(document.getElementById("p-score").innerText);
     document.getElementById("p-score").innerText = ++playerScore;
 }
 
-    /**
-     * Computer score
-     */
+/**
+ * Computer score
+ */
 function incrementComputerScore() {
 
     let computerScore = parseInt(document.getElementById("c-score").innerText);
@@ -79,6 +77,10 @@ function incrementComputerScore() {
 
 
 
-function movesLeft () {
-    
+function movesLeft() {
+
+}
+
+function restartGame() {
+
 }
