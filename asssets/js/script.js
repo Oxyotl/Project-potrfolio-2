@@ -2,43 +2,80 @@
  * Declaration of constants and possible choices
  */
 const buttons = document.getElementsByClassName("btn");
+const movesleft = document.getElementById("moves-left")
+const playerImage = document.getElementById("player-image")
+const computerImage = document.getElementById("computer-image")
 const playerScore = document.getElementById("y-score");
 const computerScore = document.getElementById("c-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
 
-
-
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     let buttons = document.getElementsByTagName("button");
+/**
+ * Buttons 
+ */
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
-    }); 
+
+
+    })
 }
-// if (this.getElementsByClassName("btn") === "submit") {
-//     alert("you clicked Submit!")
-//             } else {
-//                 let gameType = this.getElementsByClassName("btn");
-//                 alert(`You clicked ${gameType}`)
-//             }    
-//         })
-//     }
-// })
+
 /**
  * The main part of the game, accepts the data-choice value of the selected button
  */
 function playGame(playerChoice) {
-    
-    let computerChoice = Math.floor(Math.random() * 3)
 
-    let result = checkWinner(choices[computerchoice], choices[playerChoice]);
+    let computerChoice = Math.floor(Math.random() * 5)
 
-    PaymentRequestUpdateEventScores(result);
+    playerImage.src = `assets/images/${choices[playerChoice]}.jpg`;
+    playerImage.alt = choices[playerChoice];
+
+    computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
+    computerImage.alt = choices[computerChoice];
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+// function playGame(playerChoice) {
+
+//     let computerChoice = Math.floor(Math.random() * 5)
+
+//     if (playerChoice === "rock") {
+
+//     }
+
+//     if (playerChoice === "paper") {
+
+//     }
+
+//     if (playerChoice === "scissors") {
+
+//     }
+
+//     if (playerChoice === "lizard") {
+
+//     }
+
+//     if (playerChoice === "spock") {
+
+//     }
+
+// }
 
 
 
@@ -46,18 +83,18 @@ function playGame(playerChoice) {
 
 // }
 
-function checkAnswer() {
+// function checkAnswer() {
 
-}
+// }
 
-function incrementYourScore() {
+// function incrementYourScore() {
 
-}
+// }
 
-function incrementPcScore() {
+// function incrementPcScore() {
 
-}
+// }
 
-function decreseMovesLeft() {
+// // function decreseMovesLeft() {
 
-}
+// // }
