@@ -8,11 +8,11 @@ const computerImage = document.getElementById("computer-image")
 const playerScore = document.getElementById("y-score");
 const computerScore = document.getElementById("c-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+const message = document.getElementsByClassName("message");
 
-
-/**
- * Buttons 
- */
+// // /**
+//  * Buttons 
+//  */
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -36,9 +36,8 @@ function playGame(playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
 
-    // let result = checkWinner(choices[computerChoiceq], choices[playerChoice];)
-
-    // updateScores(result);
+    checkWinner();
+    
 
 }
 
@@ -49,10 +48,35 @@ function playGame(playerChoice) {
  * Checks which choice wins 
  */
 
-function checkWinner(playerChoice) {
+function checkWinner() {
+
+    let player = playerChoice
+    let computer = computerChoice
+
+        if (player == computer)
+        message.textContent = "Tie"
+
+  
 
 
+    // let tie = playerChoice === computerChoice
+    // document.getElementsByClassName("message").innerText =`Tie`
 
+    // if (playerChoice == document.getElementById("r")) {
+    //     if (computerChoice = "scissors")
+    //         incrementPlayerScore();
+
+    //     if (computerChoice = "lizard")
+    //         incrementPlayerScore();
+
+
+    //     if (computerChoice = "paper")
+    //         incrementComputerScore();
+
+    //     if (computerChoice = "spock")
+    //         incrementComputerScore();
+
+    // }
 
 }
 
