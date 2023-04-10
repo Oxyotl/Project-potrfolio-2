@@ -1,5 +1,5 @@
 # Ultimate Rock;paper,Scissors
-<h2 align="center"><img src="assests/images/"></h2>
+<h2 align="center"><img src="assets/images/"></h2>
 
 ## Project goal
 This website focuses on letting the user enjoy a thrilling game of rock, paper, scissors, lizard, Spock against the computer as many time as they want.
@@ -24,15 +24,15 @@ This website focuses on letting the user enjoy a thrilling game of rock, paper, 
 
 ## Header
 It represents the title of the website and its goal is to catch the attention of the user and keep him on the pagr to play more rounds of the game, especially with the catchy font of the text.
-<h2 align="center"><img src="assests/images/"></h2>
+<h2 align="center"><img src="assets/images/header.PNG"></h2>
 
 ## Countdown area
 Shows the user how many moves are left before the game is finished through a JavaScript function that updates after each move.
-<h2 align="center"><img src="assests/images/"></h2>
+<h2 align="center"><img src="assets/images/countdownarea.png"></h2>
 
 ## Game area
 This is the main part of the website , dived into three areas, each with a specific function in tha game:
-<h2 align="center"><img src="assests/images/"></h2>
+<h2 align="center"><img src="assets/images/game-area.png"></h2>
 
 - ### Control Area
     It holds the buttons for the user to press for start playing the game, each button represent one of the possible hand gestures that one could make when playing rock, paper, scissors, lizard, spock.
@@ -43,10 +43,11 @@ This is the main part of the website , dived into three areas, each with a speci
 
 ## Footer
 In the footer there's only one string of test that explain the objective of the game.
-<h2 align="center"><img src="assests/images/"></h2>
+<h2 align="center"><img src="assets/images/footer.png"></h2>
 
 ## Wireframe
-<h2 align="center"><img src="assests/images/"></h2>
+With the wireframe it is possible to take a look at the basic idea of the webpage
+<h2 align="center"><img src="assets/images/wireframe.PNG"></h2>
 
 ## Features
 
