@@ -15,10 +15,12 @@ This website focuses on letting the user enjoy a thrilling game of rock, paper, 
      - Score area
  - Footer
  - Wireframe
- - Features
  - Testing
  - Deployment
  - Credits
+    - Code
+    - Media
+    - Acknowledgements
 
 ## Header
 It represents the title of the website and its goal is to catch the attention of the user and keep him on the pagr to play more rounds of the game, especially with the catchy font of the text.
@@ -50,7 +52,8 @@ In the footer there's only one string of test that explain the objective of the 
 
 ## Testing
 -  errors found when using [W3C validator](https://validator.w3.org) 
--  errors found when using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+-  errors found when using [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+-  errors found when using [JSHint](https://jshint.com/)
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -61,3 +64,11 @@ In the footer there's only one string of test that explain the objective of the 
     - Refresh the page and you should be able to click on the site link.
     
 ## Credits
+
+- ### Code
+    - All code was written by the developer.
+    - The external fonts come from [Google Fonts](https://fonts.google.com/)
+- ### Media
+    - The images are taken from [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=798194678)
+- ### Acknowledgements
+    - My Mentor, he really helped me  and guided my work.
