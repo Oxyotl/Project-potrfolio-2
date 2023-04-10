@@ -1,5 +1,5 @@
 # Ultimate Rock;paper,Scissors
-<h2 align="center"><img src="assets/images/"></h2>
+<h2 align="center"><img src="assets/images/responsiveness.PNG"></h2>
 
 ## Project goal
 This website focuses on letting the user enjoy a thrilling game of rock, paper, scissors, lizard, Spock against the computer as many time as they want.
@@ -52,8 +52,8 @@ With the wireframe it is possible to take a look at the basic idea of the webpag
 ## Features
 
 ## Testing
--  errors found when using [W3C validator](https://validator.w3.org) 
--  errors found when using [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- No errors found, only a few warnings reagarding the absence of an h2-h6, but it was a developer choice[W3C validator](https://validator.w3.org) 
+- NO errors found when using [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 -  errors found when using [JSHint](https://jshint.com/)
 
 ## Deployment
