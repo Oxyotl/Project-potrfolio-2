@@ -46,7 +46,7 @@ function playGame(playerChoice) {
 /**
  * Check the moves left
  */
-function checkMoves(){
+function checkMoves() {
 
 }
 
@@ -60,30 +60,27 @@ function checkMoves(){
  * Function to check the choice selected
  */
 function choiceSelected(playerChoice) {
-    if (playerChoice == "player")
+    if (playerChoice === computerChoice) {
+        message.innerText = "Tie"
 
-        if (playerChoice == document.getElementById("r")) {
-            if (computerChoice == "rock")
-                console.log("Tie");
+    } else if (playerChoice == document.getElementById("r")) {
+        if (computerChoice == "paper") {
+            incrementComputerScore()
         }
 
-    if (computerChoice == "paper") {
-        incrementComputerScore()
-    }
+        if (computerChoice == "scissors") {
+            incrementPlayerScore()
+        }
 
-    if (computerChoice == "scissors") {
-        incrementPlayerScore()
-    }
+        if (computerChoice == "lizard") {
+            incrementPlayerScore()
+        }
 
-    if (computerChoice == "lizard") {
-        incrementPlayerScore()
-    }
+        if (computerChoice == "spock") {
+            incrementComputerScore()
+        }
 
-    if (computerChoice == "spock") {
-        incrementComputerScore()
-    }
-
-    else if (playerChoice == document.getElementById("p")) {
+    } else if (playerChoice == document.getElementById("p")) {
 
     }
 
