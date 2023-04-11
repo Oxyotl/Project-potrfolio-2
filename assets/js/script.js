@@ -37,26 +37,24 @@ function playGame(playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
 
-    checkWinner();
+    choiceSelected(playerChoice)
+
 
 
 }
 
+/**
+ * Check the moves left
+ */
+function checkMoves(){
 
+}
 
 
 /**
  * Checks which choice wins 
  */
 
-function checkWinner() {
-
-    let player = playerChoice
-    let computer = computerChoice
-
-    if (player == computer)
-        message.textContent = "Tie"
-}
 
 /**
  * Function to check the choice selected
@@ -86,7 +84,7 @@ function choiceSelected(playerChoice) {
     }
 
     else if (playerChoice == document.getElementById("p")) {
-        
+
     }
 
 
