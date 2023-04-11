@@ -8,7 +8,7 @@ const computerImage = document.getElementById("computer-image")
 const playerScore = document.getElementById("p-score");
 const computerScore = document.getElementById("c-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
-const message = document.getElementsByClassName("message");
+const message = document.querySelector(".message");
 
 // // /**
 //  * Buttons 
@@ -18,6 +18,7 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
+        checkMoves()
 
 
     })
@@ -83,14 +84,6 @@ function choiceSelected(playerChoice) {
     } else if (playerChoice == document.getElementById("p")) {
 
     }
-
-
-
-
-
-
-
-
 }
 
 /**
