@@ -5,7 +5,7 @@ const buttons = document.getElementsByClassName("btn");
 const movesleft = document.getElementById("moves-left")
 const playerImage = document.getElementById("player-image")
 const computerImage = document.getElementById("computer-image")
-const playerScore = document.getElementById("y-score");
+const playerScore = document.getElementById("p-score");
 const computerScore = document.getElementById("c-score");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const message = document.getElementsByClassName("message");
@@ -23,6 +23,7 @@ for (let button of buttons) {
     })
 }
 
+
 /**
  * The main part of the game, accepts the data-choice value of the selected button
  */
@@ -37,7 +38,7 @@ function playGame(playerChoice) {
     computerImage.alt = choices[computerChoice];
 
     checkWinner();
-    
+
 
 }
 
@@ -53,33 +54,49 @@ function checkWinner() {
     let player = playerChoice
     let computer = computerChoice
 
-        if (player == computer)
+    if (player == computer)
         message.textContent = "Tie"
-
-  
-
-
-    // let tie = playerChoice === computerChoice
-    // document.getElementsByClassName("message").innerText =`Tie`
-
-    // if (playerChoice == document.getElementById("r")) {
-    //     if (computerChoice = "scissors")
-    //         incrementPlayerScore();
-
-    //     if (computerChoice = "lizard")
-    //         incrementPlayerScore();
-
-
-    //     if (computerChoice = "paper")
-    //         incrementComputerScore();
-
-    //     if (computerChoice = "spock")
-    //         incrementComputerScore();
-
-    // }
-
 }
 
+/**
+ * Function to check the choice selected
+ */
+function choiceSelected(playerChoice) {
+    if (playerChoice == "player")
+
+        if (playerChoice == document.getElementById("r")) {
+            if (computerChoice == "rock")
+                console.log("Tie");
+        }
+
+    if (computerChoice == "paper") {
+        incrementComputerScore()
+    }
+
+    if (computerChoice == "scissors") {
+        incrementPlayerScore()
+    }
+
+    if (computerChoice == "lizard") {
+        incrementPlayerScore()
+    }
+
+    if (computerChoice == "spock") {
+        incrementComputerScore()
+    }
+
+    else if (playerChoice == document.getElementById("p")) {
+        
+    }
+
+
+
+
+
+
+
+
+}
 
 /**
  * Player score
@@ -97,14 +114,4 @@ function incrementComputerScore() {
 
     let computerScore = parseInt(document.getElementById("c-score").innerText);
     document.getElementById("c-score").innerText = ++computerScore;
-}
-
-
-
-function movesLeft() {
-
-}
-
-function restartGame() {
-
 }
